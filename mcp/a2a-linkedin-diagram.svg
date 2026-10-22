@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="google" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4285F4"/>
+      <stop offset="50%" stop-color="#EA4335"/>
+      <stop offset="100%" stop-color="#FBBC05"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Top badge -->
+  <rect x="340" y="50" width="400" height="52" rx="26" fill="#1e3a5f" stroke="#3b82f6" stroke-width="2"/>
+  <text x="540" y="83" font-family="Segoe UI, Arial" font-size="24" fill="#93c5fd" text-anchor="middle" font-weight="600">GOOGLE ORIGINATED • LINUX FOUNDATION</text>
+
+  <!-- Title -->
+  <text x="540" y="160" font-family="Segoe UI, Arial" font-size="64" fill="#ffffff" text-anchor="middle" font-weight="800">A2A PROTOCOL</text>
+  <text x="540" y="205" font-family="Segoe UI, Arial" font-size="28" fill="#94a3b8" text-anchor="middle">Agent-to-Agent Communication</text>
+
+  <!-- AGENT A -->
+  <rect x="70" y="300" width="280" height="200" rx="20" fill="#0b1220" stroke="#3b82f6" stroke-width="3" filter="url(#glow)"/>
+  <text x="210" y="350" font-family="Segoe UI, Arial" font-size="22" fill="#60a5fa" text-anchor="middle" font-weight="700">🤖 AGENT A</text>
+  <text x="210" y="390" font-family="Segoe UI, Arial" font-size="20" fill="#e2e8f0" text-anchor="middle">Built with LangGraph</text>
+  <text x="210" y="430" font-family="Segoe UI, Arial" font-size="18" fill="#94a3b8" text-anchor="middle">"Find me the best flight"</text>
+  <text x="210" y="470" font-family="Segoe UI, Arial" font-size="18" fill="#94a3b8" text-anchor="middle">Framework X</text>
+
+  <!-- AGENT B -->
+  <rect x="730" y="300" width="280" height="200" rx="20" fill="#0b1220" stroke="#ea4335" stroke-width="3" filter="url(#glow)"/>
+  <text x="870" y="350" font-family="Segoe UI, Arial" font-size="22" fill="#f87171" text-anchor="middle" font-weight="700">🤖 AGENT B</text>
+  <text x="870" y="390" font-family="Segoe UI, Arial" font-size="20" fill="#e2e8f0" text-anchor="middle">Built with Google ADK</text>
+  <text x="870" y="430" font-family="Segoe UI, Arial" font-size="18" fill="#94a3b8" text-anchor="middle">"Book the ticket"</text>
+  <text x="870" y="470" font-family="Segoe UI, Arial" font-size="18" fill="#94a3b8" text-anchor="middle">Framework Y</text>
+
+  <!-- AGENT CARD -->
+  <rect x="400" y="310" width="280" height="180" rx="20" fill="#052e16" stroke="#22c55e" stroke-width="3" filter="url(#glow)"/>
+  <text x="540" y="355" font-family="Segoe UI, Arial" font-size="22" fill="#4ade80" text-anchor="middle" font-weight="700">📄 AGENT CARD</text>
+  <text x="540" y="395" font-family="Consolas, monospace" font-size="16" fill="#86efac" text-anchor="middle">/.well-known/</text>
+  <text x="540" y="420" font-family="Consolas, monospace" font-size="16" fill="#86efac" text-anchor="middle">agent-card.json</text>
+  <text x="540" y="460" font-family="Segoe UI, Arial" font-size="17" fill="#bbf7d0" text-anchor="middle">Skills • URL • Auth</text>
+
+  <!-- ARROWS A -> CARD -->
+  <line x1="350" y1="380" x2="395" y2="390" stroke="#60a5fa" stroke-width="4" marker-end="url(#arrowBlue)"/>
+  <defs>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#60a5fa"/></marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#22c55e"/></marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#ea4335"/></marker>
+  </defs>
+  <line x1="685" y1="390" x2="730" y2="380" stroke="#22c55e" stroke-width="4" marker-end="url(#arrowGreen)"/>
+
+  <!-- DISCOVER LABEL -->
+  <text x="370" y="290" font-family="Segoe UI, Arial" font-size="18" fill="#60a5fa" text-anchor="middle" font-weight="600">DISCOVER</text>
+  <text x="712" y="290" font-family="Segoe UI, Arial" font-size="18" fill="#4ade80" text-anchor="middle" font-weight="600">READS</text>
+
+  <!-- BIG ARROW BETWEEN AGENTS -->
+  <path d="M 280 560 Q 540 640 800 560" stroke="url(#google)" stroke-width="5" fill="none" stroke-dasharray="12,8"/>
+  <text x="540" y="630" font-family="Segoe UI, Arial" font-size="26" fill="#ffffff" text-anchor="middle" font-weight="700">TASK DELEGATION + STREAMED RESULT</text>
+  <text x="540" y="665" font-family="Segoe UI, Arial" font-size="20" fill="#94a3b8" text-anchor="middle">JSON-RPC / REST / gRPC</text>
+
+  <!-- MCP vs A2A BOX -->
+  <rect x="70" y="720" width="940" height="170" rx="20" fill="#0b1220" stroke="#334155" stroke-width="2"/>
+  <text x="540" y="770" font-family="Segoe UI, Arial" font-size="28" fill="#ffffff" text-anchor="middle" font-weight="800">A2A vs MCP — THE INTERVIEW QUESTION</text>
+
+  <rect x="110" y="800" width="400" height="60" rx="12" fill="#1e3a5f"/>
+  <text x="310" y="838" font-family="Segoe UI, Arial" font-size="22" fill="#93c5fd" text-anchor="middle" font-weight="600">MCP = Agent ↔ Tools (Vertical)</text>
+
+  <rect x="570" y="800" width="400" height="60" rx="12" fill="#451a1a"/>
+  <text x="770" y="838" font-family="Segoe UI, Arial" font-size="22" fill="#fca5a5" text-anchor="middle" font-weight="600">A2A = Agent ↔ Agent (Horizontal)</text>
+
+  <!-- BOTTOM LINE -->
+  <text x="540" y="950" font-family="Segoe UI, Arial" font-size="30" fill="#facc15" text-anchor="middle" font-weight="700">Build with ADK • Equip with MCP • Communicate with A2A</text>
+
+  <rect x="290" y="985" width="500" height="55" rx="27" fill="url(#google)"/>
+  <text x="540" y="1020" font-family="Segoe UI, Arial" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="800">⭐ GitHub Repo Link in Comments</text>
+</svg>

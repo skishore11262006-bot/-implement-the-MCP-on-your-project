@@ -1,0 +1,330 @@
+INFO:     127.0.0.1:57542 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49779 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54105 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54105 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58205 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49779 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58205 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65186 - "OPTIONS /api/executions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65186 - "POST /api/executions HTTP/1.1" 201 Created
+INFO:     127.0.0.1:65186 - "GET /api/executions/exec_9ab8f488333b/events HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55949 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55949 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55949 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53848 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64923 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53848 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61242 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61242 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52953 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52953 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58658 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58881 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58881 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59982 - "GET /api/git/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58658 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62436 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52076 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50814 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50641 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64632 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52076 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50814 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53317 - "GET /api/git/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55104 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55104 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53317 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63518 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63518 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63518 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54880 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49688 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54880 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54880 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49688 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49688 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63518 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54880 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63518 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52863 - "OPTIONS /api/executions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52863 - "POST /api/executions HTTP/1.1" 201 Created
+INFO:     127.0.0.1:52863 - "GET /api/executions/exec_4718d3ee87bf/events HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55295 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55295 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55295 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51098 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53988 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51098 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63234 - "OPTIONS /api/executions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63234 - "POST /api/executions HTTP/1.1" 201 Created
+INFO:     127.0.0.1:63234 - "GET /api/executions/exec_ea930cb31b6a/events HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63234 - "GET /api/executions/exec_ea930cb31b6a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59820 - "POST /api/executions HTTP/1.1" 201 Created
+INFO:     127.0.0.1:59820 - "GET /api/executions/exec_5cbb1baf23bf/events HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59820 - "GET /api/executions/exec_5cbb1baf23bf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64036 - "GET /api/git/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58414 - "GET /api/git/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58414 - "POST /api/git/init HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58414 - "GET /api/git/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58414 - "POST /api/git/init HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58414 - "GET /api/git/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58414 - "POST /api/git/init HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58414 - "GET /api/git/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51667 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54106 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54106 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50715 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50715 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56882 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56882 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56882 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60558 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62323 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65493 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65345 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49673 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62323 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52933 - "GET /api/git/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65493 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62554 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60248 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58666 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58666 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54440 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60248 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54440 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53654 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53654 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61804 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52392 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52392 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60496 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55016 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51670 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61996 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65232 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55016 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53517 - "GET /api/git/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57818 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57073 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57073 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50296 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50296 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57073 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57073 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61615 - "OPTIONS /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57073 - "POST /api/chat HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50296 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61915 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61915 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61915 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50168 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52814 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50168 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52000 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53241 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53241 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55234 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52000 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55234 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51650 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57973 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57973 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54668 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51650 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54668 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61833 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61859 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61859 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64308 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61833 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64308 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51325 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61602 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59942 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50105 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61602 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54605 - "GET /api/git/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60153 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55357 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60153 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57314 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57314 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55435 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55209 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61577 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61577 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61540 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55209 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61540 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61540 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61540 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55209 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55209 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55209 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61540 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60453 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50379 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50379 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53580 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60453 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53580 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53580 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60453 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60453 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50379 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53580 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50379 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59318 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61387 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61387 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56425 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59318 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56425 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62422 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50866 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62422 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62422 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62422 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62422 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50866 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62422 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50866 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62422 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53550 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57596 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59532 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57596 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53460 - "GET /api/git/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63973 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55745 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63973 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56741 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55745 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57499 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53490 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54401 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53490 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /api/git/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49670 - "GET /api/documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58038 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55018 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51937 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51937 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49152 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51937 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61724 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61724 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61724 - "GET /api/documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61172 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61172 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50071 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49216 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50071 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60823 - "GET /api/git/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59754 - "GET /api/documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52206 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54577 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52206 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63222 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63222 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53001 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63222 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50742 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56139 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58521 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60580 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61808 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61808 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61485 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60580 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61485 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53385 - "OPTIONS /api/executions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53385 - "POST /api/executions HTTP/1.1" 201 Created
+INFO:     127.0.0.1:53385 - "GET /api/executions/exec_278ca3ea70f0/events HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53385 - "GET /api/executions/exec_278ca3ea70f0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57981 - "POST /api/executions HTTP/1.1" 201 Created
+INFO:     127.0.0.1:57981 - "GET /api/executions/exec_f89054695d7c/events HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57981 - "GET /api/executions/exec_f89054695d7c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57981 - "POST /api/executions HTTP/1.1" 201 Created
+INFO:     127.0.0.1:57981 - "GET /api/executions/exec_d972f63eab77/events HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57981 - "GET /api/executions/exec_d972f63eab77 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56319 - "GET /api/documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61687 - "GET /api/documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61687 - "GET /api/documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56319 - "GET /api/documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61822 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63243 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57440 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63905 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63905 - "GET /api/documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57440 - "GET /api/documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57440 - "GET /api/documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63905 - "GET /api/documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49844 - "POST /api/executions HTTP/1.1" 201 Created
+INFO:     127.0.0.1:49844 - "GET /api/executions/exec_c356d91cc277/events HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49844 - "GET /api/executions/exec_c356d91cc277 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60260 - "POST /api/executions HTTP/1.1" 201 Created
+INFO:     127.0.0.1:60260 - "GET /api/executions/exec_64f181e0bbf1/events HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60260 - "GET /api/executions/exec_64f181e0bbf1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60260 - "POST /api/executions HTTP/1.1" 201 Created
+INFO:     127.0.0.1:60260 - "GET /api/executions/exec_95b15577658a/events HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60260 - "GET /api/executions/exec_95b15577658a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50169 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62182 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62182 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62251 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50169 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62251 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55635 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55635 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55635 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57338 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61129 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57338 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49869 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58982 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49869 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58982 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56684 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58982 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51908 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51281 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51281 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50210 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51908 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50210 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51133 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51133 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51133 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59714 - "GET /api/nodes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60554 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59714 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50540 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57251 - "OPTIONS /chat HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:57405 - "OPTIONS /chat HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:53520 - "OPTIONS /chat HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:51207 - "OPTIONS /chat HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56636 - "OPTIONS /chat HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:60111 - "OPTIONS /chat HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:60111 - "OPTIONS /chat HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:65250 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49286 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49286 - "OPTIONS /chat HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:50755 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50755 - "OPTIONS /chat HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:51380 - "OPTIONS /chat HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:51387 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55116 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55116 - "OPTIONS /chat HTTP/1.1" 400 Bad Request

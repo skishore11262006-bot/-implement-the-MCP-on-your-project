@@ -1,0 +1,93 @@
+{
+  "name": "ai-software-engineer",
+  "displayName": "AI Software Engineer",
+  "description": "AI agent that analyses code, explains errors, suggests fixes and runs tests with user approval",
+  "version": "0.0.1",
+  "publisher": "your-name",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Machine Learning",
+    "Programming Languages",
+    "Other"
+  ],
+  "main": "./out/extension.js",
+  "activationEvents": [],
+  "contributes": {
+    "commands": [
+      {
+        "command": "ai-software-engineer.hello",
+        "title": "AI Software Engineer: Hello (Step 1 Test)"
+      },
+      {
+        "command": "ai-software-engineer.setApiKey",
+        "title": "AI Software Engineer: Set API Key"
+      },
+      {
+        "command": "ai-software-engineer.openChat",
+        "title": "AI Software Engineer: Open Chat"
+      },
+      {
+        "command": "ai-software-engineer.testMcp",
+        "title": "AI Software Engineer: Test MCP Connection"
+      },
+      {
+        "command": "ai-software-engineer.demoMcp",
+        "title": "AI Software Engineer: MCP Demo (Record This)"
+      }
+    ],
+    "configuration": {
+      "title": "AI Software Engineer",
+      "properties": {
+        "aiSoftwareEngineer.provider": {
+          "type": "string",
+          "default": "ollama",
+          "enum": [
+            "ollama",
+            "openai",
+            "anthropic"
+          ],
+          "description": "LLM provider to use"
+        },
+        "aiSoftwareEngineer.model": {
+          "type": "string",
+          "default": "qwen2.5-coder:3b",
+          "description": "Model name (e.g. qwen2.5-coder:3b, gpt-4o-mini)"
+        },
+        "aiSoftwareEngineer.ollamaUrl": {
+          "type": "string",
+          "default": "http://localhost:11434",
+          "description": "Ollama server URL"
+        },
+        "aiSoftwareEngineer.maxIterations": {
+          "type": "number",
+          "default": 15,
+          "description": "Max agent loop iterations before stopping"
+        },
+        "aiSoftwareEngineer.mcpServers": {
+          "type": "array",
+          "default": [],
+          "description": "MCP servers to connect: [{ \"name\": \"filesystem\", \"command\": \"npx\", \"args\": [\"-y\", \"@modelcontextprotocol/server-filesystem\"] }]",
+          "items": {
+            "type": "object"
+          }
+        }
+      }
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "test:mcp": "node test/mcp-smoke.mjs \"%CD%\"",
+    "demo:mcp": "node test/mcp-demo.mjs \"%CD%\""
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.4.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1"
+  }
+}
